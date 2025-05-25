@@ -35,7 +35,7 @@ case "${DEVICE}" in
   RK3588)
     [ "${ENABLE_32BIT}" == "true" ] && EMUS_32BIT="box86 desmume-lr gpsp-lr pcsx_rearmed-lr"
     PKG_EMUS+=" aethersx2-sa azahar-sa box64 dolphin-sa lime3ds-sa drastic-sa mednafen melonds-sa portmaster scummvmsa supermodel-sa yabasanshiro-sa duckstation-sa"
-    LIBRETRO_CORES+=" beetle-psx-lr beetle-saturn-lr bsnes-lr bsnes-hd-lr dolphin-lr flycast2021-lr geolith-lr panda3ds-lr pcsx_rearmed-lr uae4arm"
+    LIBRETRO_CORES+=" beetle-psx-lr beetle-saturn-lr bsnes-lr bsnes-hd-lr dice-lr dolphin-lr flycast2021-lr geolith-lr panda3ds-lr pcsx_rearmed-lr uae4arm"
     PKG_RETROARCH+=" retropie-shaders"
   ;;
   RK3399)
@@ -55,7 +55,7 @@ case "${DEVICE}" in
   S922X)
     [ "${ENABLE_32BIT}" == "true" ] && EMUS_32BIT="box86 pcsx_rearmed-lr"
     PKG_EMUS+=" aethersx2-sa azahar-sa box64 dolphin-sa drastic-sa duckstation-sa lime3ds-sa melonds-sa portmaster scummvmsa yabasanshiro-sa"
-    LIBRETRO_CORES+=" beetle-psx-lr beetle-saturn-lr bsnes-lr bsnes-hd-lr dolphin-lr geolith-lr flycast2021-lr uae4arm"
+    LIBRETRO_CORES+=" beetle-psx-lr beetle-saturn-lr bsnes-lr bsnes-hd-lr dice-lr dolphin-lr geolith-lr flycast2021-lr uae4arm"
     PKG_RETROARCH+=" retropie-shaders"
   ;;
   RK3326)
@@ -76,7 +76,7 @@ case "${DEVICE}" in
     [ "${ENABLE_32BIT}" == "true" ] && EMUS_32BIT="box86 daedalusx64-sa desmume-lr gpsp-lr pcsx_rearmed-lr"
     PKG_EMUS+=" aethersx2-sa azahar-sa box64 cemu-sa dolphin-sa lime3ds-sa melonds-sa nanoboyadvance-sa portmaster rpcs3-sa scummvmsa supermodel-sa \
                yabasanshiro-sa xemu-sa duckstation-sa"
-    LIBRETRO_CORES+=" beetle-psx-lr beetle-saturn-lr bsnes-lr bsnes-hd-lr dolphin-lr flycast2021-lr geolith-lr panda3ds-lr pcsx_rearmed-lr uae4arm kronos-lr"
+    LIBRETRO_CORES+=" beetle-psx-lr beetle-saturn-lr bsnes-lr bsnes-hd-lr dice-lr dolphin-lr flycast2021-lr geolith-lr panda3ds-lr pcsx_rearmed-lr uae4arm kronos-lr"
     PKG_RETROARCH+=" retropie-shaders"
   ;;
 esac
@@ -1284,6 +1284,14 @@ makeinstall_target() {
   ### Palm OS
   add_emu_core palm retroarch mu true
   add_es_system palm
+
+  ### DICE
+  case ${DEVICE} in
+  RK3588|S922X|SM8250|SM8550) # More speed on these?
+  add_emu_core dice retroarch dice true
+  ;;
+  esac
+  add_es_system dice
 
   ### PC Ports
   case ${TARGET_ARCH} in
