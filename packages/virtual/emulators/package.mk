@@ -1287,7 +1287,7 @@ makeinstall_target() {
 
   ### DICE
   case ${DEVICE} in
-  RK3588|S922X|SM8250|SM8550) # More speed on these?
+  RK3588|S922X|SM8*) # More speed on these?
   add_emu_core dice retroarch dice true
   ;;
   esac
