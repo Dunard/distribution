@@ -5,7 +5,7 @@
 PKG_NAME="ppsspp-sa"
 PKG_SITE="https://github.com/hrydgard/ppsspp"
 PKG_URL="${PKG_SITE}.git"
-PKG_VERSION="1ce60824761b6bb288ad4e3301e23bd984e617fb" # v1.19.2
+PKG_VERSION="5205494160c076283a6d29a0dacf002c40f10bd8" # v1.19.2
 CHEAT_DB_VERSION="31d7280ed5bad454df5bddc6d953de84f34c9ef5" # Update cheat.db (26/06/2024)
 PKG_LICENSE="GPLv2"
 PKG_DEPENDS_TARGET="toolchain ffmpeg libzip SDL2 zlib zip"
