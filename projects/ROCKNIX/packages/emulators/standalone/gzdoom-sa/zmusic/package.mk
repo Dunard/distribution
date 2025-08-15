@@ -3,7 +3,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="zmusic"
-PKG_VERSION="1.1.14"
+PKG_VERSION="1.2.0"
 PKG_LICENSE="GPL"
 PKG_SITE="https://github.com/ZDoom/ZMusic"
 PKG_URL="https://github.com/ZDoom/ZMusic/archive/refs/tags/${PKG_VERSION}.tar.gz"
