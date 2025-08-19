@@ -2,7 +2,7 @@
 # Copyright (C) 2024-present ROCKNIX (https://github.com/ROCKNIX)
 
 PKG_NAME="azahar-sa"
-PKG_VERSION="8786f733836c56761fe897200feb20a8967fc9ed"
+PKG_VERSION="e65ed7814fc7ce22ae87e683ef22a2efc18b7029"
 PKG_LICENSE="GPL"
 PKG_SITE="https://github.com/AzaharPlus/AzaharPlus"
 PKG_URL="${PKG_SITE}.git"
