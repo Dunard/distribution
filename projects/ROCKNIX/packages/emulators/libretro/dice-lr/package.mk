@@ -2,7 +2,7 @@
 # Copyright (C) 2025-present ROCKNIX (https://github.com/ROCKNIX)
 
 PKG_NAME="dice-lr"
-PKG_VERSION="9efd24da745b9a4882be2a3e9e93b223d93d752f"
+PKG_VERSION="bc47b57968f19d19359e7c920319e4e64f739dbe"
 PKG_LICENSE="GPLv3"
 PKG_SITE="https://git.libretro.com/libretro/dice-libretro"
 PKG_URL="${PKG_SITE}/-/archive/${PKG_VERSION}/dice-libretro-${PKG_VERSION}.tar.gz"
