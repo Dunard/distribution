@@ -21,7 +21,7 @@
 ################################################################################
 
 PKG_NAME="glsl-shaders"
-PKG_VERSION="bbec046178947afb6a1d69330d4b9800a0734328"
+PKG_VERSION="e00a25d6a82a52a401fa8e03c1c233e25ace73d1"
 PKG_ARCH="aarch64"
 PKG_LICENSE="GPL"
 PKG_SITE="https://github.com/libretro/glsl-shaders"
