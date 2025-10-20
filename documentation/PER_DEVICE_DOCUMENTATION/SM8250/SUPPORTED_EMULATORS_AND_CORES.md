@@ -10,6 +10,7 @@
 |Apple|Macintosh (macintosh)|1984|`mac`|.dsk .img .hfv .cmd .zip|**retroarch:** minivmac (default)<br>|
 |Arcade|Arcade (arcade)|0000|`arcade`|.zip .7z|**retroarch:** mame2003_plus (default)<br>**retroarch:** mame2010<br>**retroarch:** mame2015<br>**retroarch:** fbneo<br>**retroarch:** fbalpha2012<br>**retroarch:** fbalpha2019<br>**retroarch:** mame<br>|
 |Arcade|Daphne (daphne)|1996|`daphne`|.daphne .singe|**hypseus-singe:** hypseus-singe (default)<br>**retroarch:** daphne<br>|
+|Arcade|DICE (dice)|20xx|`dice`|.zip .dmy .k1 .a1 .6c .c6 .d2 .s1 .f4 .a4 .1da .da1 .C4 .4c .4d .d7 .d4|**retroarch:** dice (default)<br>|
 |Arcade|Final Burn Neo (fbn)|2002|`fbneo`|.7z .zip|**retroarch:** fbneo (default)<br>**retroarch:** mame2003_plus<br>**retroarch:** mame2010<br>**retroarch:** mame2015<br>**retroarch:** mame<br>**retroarch:** fbalpha2012<br>**retroarch:** fbalpha2019<br>|
 |Arcade|MAME (mame)|1997|`mame`|.7z .zip|**retroarch:** mame2003_plus (default)<br>**retroarch:** mame2010<br>**retroarch:** mame2015<br>**retroarch:** mame<br>**retroarch:** fbneo<br>**retroarch:** fbalpha2012<br>**retroarch:** fbalpha2019<br>|
 |Arduboy|Arduboy (arduboy)|2014|`arduboy`|.hex|**retroarch:** arduous (default)<br>|
@@ -41,6 +42,7 @@
 |id Software|iDtech (idtech)|1991|`idtech`|.sh|**retroarch:** idtech<br>|
 |Infocom|Z-machine (zmachine)|1979|`zmachine`|.dat .z1 .z2 .z3 .z4 .z5 .z6 .zip|**retroarch:** mojozork (default)<br>|
 |Lexaloffle|PICO-8 (pico-8)|2015|`pico-8`|.p8 .png|**pico-8:** pico8 (default)<br>**retroarch:** fake08<br>|
+|Lexaloffle|Picotron (picotron)|2015|`picotron`|.png|**picotron:** picotron (default)<br><br>|
 |Magnavox|Odyssey 2 (odyssey2)|1979|`odyssey`|.bin .zip .7z|**retroarch:** o2em (default)<br>|
 |Mattel|Intellivision (intellivision)|1979|`intellivision`|.int .bin .rom .zip .7z|**retroarch:** freeintv (default)<br>|
 |Microsoft|DOS (pc)|1981|`pc`|.com .bat .exe .dosz|**retroarch:** dosbox_pure<br>**retroarch:** dosbox_core<br>|
