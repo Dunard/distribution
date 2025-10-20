@@ -894,7 +894,11 @@ makeinstall_target() {
   add_es_system pico-8
 
   ### Lexaloffle Picotron
+  case ${DEVICE} in
+  SDM845|SM8250|SM8550)
   add_emu_core picotron picotron picotron true
+  ;;
+  esac
   add_es_system picotron
 
   ### Sony Playstation
@@ -1325,7 +1329,7 @@ makeinstall_target() {
 
   ### DICE
   case ${DEVICE} in
-  RK3588|S922X|SM8*|SDM845)
+  RK3588|SDM845|SM8250|SM8550|S922X)
   add_emu_core dice retroarch dice true
   ;;
   esac
