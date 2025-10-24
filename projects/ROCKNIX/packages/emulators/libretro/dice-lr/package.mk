@@ -4,8 +4,10 @@
 PKG_NAME="dice-lr"
 PKG_VERSION="ecdfaf2e855d135132fe2353918039901a21f790"
 PKG_LICENSE="GPLv3"
-PKG_SITE="https://git.libretro.com/libretro/dice-libretro"
-PKG_URL="${PKG_SITE}/-/archive/${PKG_VERSION}/dice-libretro-${PKG_VERSION}.tar.gz"
+PKG_SITE="https://github.com/mittonk/dice-libretro"
+PKG_URL="${PKG_SITE}/archive/${PKG_VERSION}.tar.gz"
+# PKG_SITE="https://git.libretro.com/libretro/dice-libretro"
+# PKG_URL="${PKG_SITE}/-/archive/${PKG_VERSION}/dice-libretro-${PKG_VERSION}.tar.gz"
 PKG_DEPENDS_TARGET="toolchain"
 PKG_LONGDESC="DICE is a Discrete Integrated Circuit Emulator. It emulates computer systems that lack any type of CPU, consisting only of discrete logic components."
 
