@@ -63,7 +63,7 @@ case "${DEVICE}" in
     ;;
   SDM845|SM8250|SM8550)
     [ "${ENABLE_32BIT}" == "true" ] && EMUS_32BIT="box86 daedalusx64-sa desmume-lr gpsp-lr pcsx_rearmed-lr"
-    PKG_EMUS+=" aethersx2-sa azahar-sa box64 cemu-sa dolphin-sa mednafen melonds-sa nanoboyadvance-sa portmaster rpcs3-sa scummvmsa supermodel-sa \
+    PKG_EMUS+=" aethersx2-sa azahar-sa box64 cemu-sa dolphin-sa mednafen melonds-sa nanoboyadvance-sa picotron portmaster rpcs3-sa scummvmsa supermodel-sa \
                 yabasanshiro-sa xemu-sa duckstation-sa skyemu-sa"
     LIBRETRO_CORES+=" beetle-psx-lr beetle-saturn-lr bsnes-lr bsnes-hd-lr dice-lr dolphin-lr flycast2021-lr geolith-lr pcsx_rearmed-lr uae4arm kronos-lr"
     PKG_RETROARCH+=" retropie-shaders"
@@ -885,6 +885,14 @@ makeinstall_target() {
   add_emu_core pico-8 pico-8 pico8 true
   add_emu_core pico-8 retroarch fake08 false
   add_es_system pico-8
+
+  ### Lexaloffle Picotron
+  case ${DEVICE} in
+  SDM845|SM8250|SM8550)
+  add_emu_core picotron picotron picotron true
+  ;;
+  esac
+  add_es_system picotron
 
   ### Sony Playstation
   case ${DEVICE} in
