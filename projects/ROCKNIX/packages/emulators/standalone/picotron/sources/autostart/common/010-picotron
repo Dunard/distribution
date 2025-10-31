@@ -1,0 +1,9 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-2.0
+# Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
+
+PICO_DIR="/storage/roms/picotron"
+if [ -d "${PICO_DIR}" ] && [ ! -f "${PICO_DIR}/.disable_splore" ]
+then
+  touch "${PICO_DIR}/Load-Picotron.png"
+fi
