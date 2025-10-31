@@ -2,7 +2,7 @@
 # Copyright (C) 2024-present ROCKNIX (https://github.com/ROCKNIX)
 
 PKG_NAME="libretro-database"
-PKG_VERSION="d3075ab69659d351ae3aea7dc4ba53e21d3d9d1e"
+PKG_VERSION="1f52b18d1701fc3442e6f83ef6e10f616c516c8f"
 PKG_LICENSE="GPL"
 PKG_SITE="https://github.com/libretro/libretro-database"
 PKG_URL="https://github.com/libretro/libretro-database/archive/${PKG_VERSION}.tar.gz"
