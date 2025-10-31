@@ -12,7 +12,7 @@ GET_HANDLER_SUPPORT="git"
 
 case ${TARGET_ARCH} in
   aarch64|arm)
-    PKG_VERSION="b13fdd5029a246e8f90a1d70e2ed000779fee4f1"
+    PKG_VERSION="8c6af6842af37769c984215461030bea92219acb"
     PKG_GIT_CLONE_BRANCH="arm"
   ;;
   *)
