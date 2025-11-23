@@ -291,6 +291,7 @@ makeinstall_target() {
 
   ### Capcom Playsystem 1
   add_emu_core cps1 retroarch fbneo true
+  add_emu_core cps1 retroarch mame false
   add_emu_core cps1 retroarch mame2003_plus false
   add_emu_core cps1 retroarch mame2010 false
   add_emu_core cps1 retroarch fbalpha2012 false
@@ -303,6 +304,7 @@ makeinstall_target() {
 
   ### Capcom Playsystem 2
   add_emu_core cps2 retroarch fbneo true
+  add_emu_core cps2 retroarch mame false
   add_emu_core cps2 retroarch mame2003_plus false
   add_emu_core cps2 retroarch mame2010 false
   add_emu_core cps2 retroarch fbalpha2012 false
@@ -315,6 +317,7 @@ makeinstall_target() {
 
   ### Capcom Playsystem 3
   add_emu_core cps3 retroarch fbneo true
+  add_emu_core cps3 retroarch mame false
   add_emu_core cps3 retroarch mame2003_plus false
   add_emu_core cps3 retroarch mame2010 false
   add_emu_core cps3 retroarch fbalpha2012 false
