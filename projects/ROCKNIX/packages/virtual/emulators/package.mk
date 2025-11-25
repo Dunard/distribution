@@ -350,6 +350,10 @@ makeinstall_target() {
   add_emu_core vsnes retroarch mame true
   add_es_system vsnes
 
+  ### PlayChoice-10
+  add_emu_core playch10 retroarch mame true
+  add_es_system playch10
+
   ### Sega Dreamcast
   case ${DEVICE} in
     H700|RK3326|RK3399|RK3566|RK3588)
