@@ -20,7 +20,7 @@
 ################################################################################
 
 PKG_NAME="vbam-lr"
-PKG_VERSION="d0787aee43d260675da203c2f85ba9fa226c0c66"
+PKG_VERSION="c3db5dc221a3038ee54572047304963cbca15cd6"
 PKG_LICENSE="GPLv2"
 PKG_SITE="https://github.com/libretro/vbam-libretro"
 PKG_URL="${PKG_SITE}/archive/${PKG_VERSION}.tar.gz"
