@@ -351,8 +351,8 @@ makeinstall_target() {
   add_es_system vsnes
 
   ### PlayChoice-10
-  add_emu_core playch10 retroarch mame true
-  add_es_system playch10
+  add_emu_core playch-10 retroarch mame true
+  add_es_system playch-10
 
   ### Sega Dreamcast
   case ${DEVICE} in
