@@ -346,6 +346,10 @@ makeinstall_target() {
       ;;
   esac
 
+  ### Nintendo VS. System
+  add_emu_core vsnes retroarch mame true
+  add_es_system vsnes
+
   ### Sega Dreamcast
   case ${DEVICE} in
     H700|RK3326|RK3399|RK3566|RK3588)
