@@ -346,6 +346,10 @@ makeinstall_target() {
       ;;
   esac
 
+  ### Nichibutsu
+  add_emu_core nichibutsu retroarch mame true
+  add_es_system nichibutsu
+
   ### Nintendo VS. System
   add_emu_core vsnes retroarch mame true
   add_es_system vsnes
