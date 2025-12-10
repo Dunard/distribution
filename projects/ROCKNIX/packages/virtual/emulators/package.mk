@@ -328,6 +328,11 @@ makeinstall_target() {
   esac
   add_es_system cps3
 
+  ### Cave
+  add_emu_core cave retroarch fbneo true
+  add_emu_core cave retroarch mame false
+  add_es_system cave
+
   ### Daphne
   add_emu_core daphne hypseus-singe hypseus-singe true
   add_emu_core daphne retroarch daphne false
