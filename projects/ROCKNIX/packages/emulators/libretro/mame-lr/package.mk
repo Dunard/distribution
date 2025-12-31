@@ -2,10 +2,10 @@
 # Copyright (C) 2019 Trond Haugland (trondah@gmail.com)
 
 PKG_NAME="mame-lr"
-PKG_VERSION="00cd2b406b2498139980a20145691d6769f83dae"
+PKG_VERSION="bf149d327ba85ad6aecac992865630947db5d47d"
 PKG_LICENSE="GPLv2"
-PKG_SITE="https://github.com/libretro/mame"
-PKG_URL="https://github.com/libretro/mame/archive/${PKG_VERSION}.tar.gz"
+PKG_SITE="https://github.com/Hancock33/lr-mame"
+PKG_URL="https://github.com/Hancock33/lr-mame/archive/${PKG_VERSION}.tar.gz"
 PKG_DEPENDS_TARGET="toolchain zlib flac sqlite expat"
 PKG_LONGDESC="MAME - Multiple Arcade Machine Emulator"
 PKG_TOOLCHAIN="make"
