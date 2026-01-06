@@ -745,12 +745,6 @@ makeinstall_target() {
 
   ### SNK NeoGeo
   add_emu_core neogeo retroarch fbneo true
-  add_emu_core neogeo retroarch mame2003_plus false
-  add_emu_core neogeo retroarch fbalpha2012 false
-  add_emu_core neogeo retroarch fbalpha2019 false
-  add_emu_core neogeo retroarch mame2010 false
-  add_emu_core neogeo retroarch mame2015 false
-  add_emu_core neogeo retroarch mame false
   case ${TARGET_ARCH} in
     aarch64)
       add_emu_core neogeo retroarch geolith false
