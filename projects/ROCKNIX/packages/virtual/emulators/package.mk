@@ -743,14 +743,23 @@ makeinstall_target() {
   esac
   add_es_system naomi
 
-  ### SNK NeoGeo
-  add_emu_core neogeo retroarch fbneo true
+  ### SNK NeoGeo AES
   case ${TARGET_ARCH} in
     aarch64)
-      add_emu_core neogeo retroarch geolith false
+      add_emu_core neogeo-aes retroarch geolith true
       ;;
   esac
-  add_es_system neogeo
+  add_es_system neogeo-aes
+
+  ### SNK NeoGeo MVS
+  add_emu_core neogeo-mvs retroarch fbneo true
+  add_emu_core neogeo-mvs retroarch mame2003_plus false
+  add_emu_core neogeo-mvs retroarch fbalpha2012 false
+  add_emu_core neogeo-mvs retroarch fbalpha2019 false
+  add_emu_core neogeo-mvs retroarch mame2010 false
+  add_emu_core neogeo-mvs retroarch mame2015 false
+  add_emu_core neogeo-mvs retroarch mame false
+  add_es_system neogeo-mvs
 
   ### SNK NeoCD
   add_emu_core neocd retroarch neocd true
