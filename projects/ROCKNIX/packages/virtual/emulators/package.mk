@@ -350,9 +350,9 @@ makeinstall_target() {
       ;;
   esac
 
-  ### Nintendo
-  add_emu_core nintendo retroarch mame true
-  add_es_system nintendo
+  ### Nintendo Arcade
+  add_emu_core nintendo-arcade retroarch mame true
+  add_es_system nintendo-arcade
 
   ### PlayChoice-10
   add_emu_core playch-10 retroarch mame true
