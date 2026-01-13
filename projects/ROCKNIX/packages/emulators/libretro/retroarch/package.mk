@@ -3,7 +3,7 @@
 # Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
 
 PKG_NAME="retroarch"
-PKG_VERSION="1c1dd1b037d8488fd247fe1a847ff365b8c84f8b" # On going updates. For testing.
+PKG_VERSION="2ca41596d9029ab78fdc38474a0f00b01328f3ba" # On going updates. For testing.
 PKG_SITE="https://github.com/libretro/RetroArch"
 PKG_URL="${PKG_SITE}/archive/${PKG_VERSION}.tar.gz"
 PKG_LICENSE="GPLv3"
